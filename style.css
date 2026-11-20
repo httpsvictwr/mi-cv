@@ -5,3 +5,8 @@ section { margin: 24px 0; }
 h1 { margin-bottom: 0; }
 h2 { color: #0366d6; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
 ul { padding-left: 20px; }
+[hidden] { display: none !important; }
+nav { border-bottom: none; padding: 10px 0; }
+nav button { background: #0366d6; color: #fff; border: none; border-radius: 8px; padding: 10px 16px; font-size: 16px; font-weight: bold; cursor: pointer; }
+nav button:hover { background: #024ea4; }
+nav button.activo { background: #222; }
